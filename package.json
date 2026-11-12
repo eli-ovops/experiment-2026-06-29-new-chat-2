@@ -1,0 +1,18 @@
+{
+  "name": "wecom-bot-agent-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal WeCom intelligent bot bridge for forwarding group text messages to an Agent endpoint.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test",
+    "mock:once": "node scripts/mock-once.js"
+  },
+  "dependencies": {
+    "@wecom/aibot-node-sdk": "^1.0.7"
+  }
+}
